@@ -36,7 +36,7 @@ You'll see an form like this:
 
 ![Create Source-to-Image Application](../assets/nodejs-gitrepo.png)
 
-Enter the repository: `https://github.com/IBM/node-s2i-openshift`.
+Enter the repository: `https://github.com/yigitpolat/node-s2i-openshift`.
 
 Then click the `Show Advanced Git Options` and enter `/site` under `Context Dir`. Click 'Create' at the bottom of the window to build and deploy the application.
 
