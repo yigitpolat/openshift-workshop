@@ -74,12 +74,6 @@ Click on the `Details` tab.
 
 Scroll down and click `Copy URL with Secret` for the GitHub Webook URL.
 
-The webhook is in the structure
-
-```text
-https://c100-e.us-east.containers.cloud.ibm.com:31305/apis/build.openshift.io/v1/namespaces/example-health/buildconfigs/patientui/webhooks/<secret>/github
-```
-
 ![Copy GitHub Webhook](../assets/github-url-secret.png)
 
 > There is also the generic webhook url. This also works for github. But the github webhook captures some additional data from github and is more specific. But if we were using some other git repo like bitbucket or gitlab we would use the generic one.
