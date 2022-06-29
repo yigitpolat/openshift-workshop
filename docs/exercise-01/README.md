@@ -1,6 +1,6 @@
 # Exercise 1: Deploy a Node application with Source-to-Image
 
-In this exercise, you'll deploy a simple Node.js Express application - "Example Health". Example Health is a simple UI for a patient health records system. We'll use this example to demonstrate key OpenShift features throughout this workshop. You can find the sample application GitHub repository here: [https://github.com/IBM/node-s2i-openshift](https://github.com/IBM/node-s2i-openshift)
+In this exercise, you'll deploy a simple Node.js Express application - "Example Health". Example Health is a simple UI for a patient health records system. We'll use this example to demonstrate key OpenShift features throughout this workshop. You can find the sample application GitHub repository here: [https://github.com/yigitpolat/node-s2i-openshift](https://github.com/yigitpolat/node-s2i-openshift)
 
 ## Deploy Example Health
 
@@ -68,33 +68,7 @@ So far we have been doing a lot of manual deployment. In cloud-native world we w
 
 To be able to setup git webhooks, we need to have elevated permission to the project. We don't own the repo we have been using so far. But since its opensource we can easily fork it and make it our own.
 
-Fork the repo at [https://github.com/IBM/node-s2i-openshift](https://github.com/IBM/node-s2i-openshift)
-
-![Fork](../assets/fork.png)
-
-Now that I have forked the repo under my repo I have full admin priviledges. As you can see I now have a settings button that I can change the repo settings with.
-
-![Forked Repo](../assets/forked-repo.png)
-
-We will come back to this page in a moment. Lets change our git source to our repo.
-
 From our openshift dashboard for our project. Select `Builds`
-
-![Build](../assets/nodejs-build-config.png)
-
-Select the `node-s-2-i-openshift` build. As of now this should be the only build on screen.
-
-![Select Build](../assets/nodejs-build-select.png)
-
-Click on `Action` on the right and then select `Edit Build Config`
-
-![Edit Build](../assets/nodejs-build-edit.png)
-
-Change line `21` to `Git Repository URL` to our forked repository, and click `Save`.
-
-![Save Build Config](../assets/nodejs-build-save.png)
-
-You will see this will not result in a new build. If you want to start a manual build you can do so by clicking `Start Build`. We will skip this for now and move on to the webhook part.
 
 Click on the `Details` tab.
 
