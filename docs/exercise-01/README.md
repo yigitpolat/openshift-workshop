@@ -4,10 +4,6 @@ In this exercise, you'll deploy a simple Node.js Express application - "Example 
 
 ## Deploy Example Health
 
-Access your cluster on the [IBM Cloud clusters dashboard](https://cloud.ibm.com/kubernetes/clusters). Click the `OpenShift web console` button on the top-right. (This is a pop-up so you'll need to white list this site.)
-
-Here is the main dashboard you should see.
-
 ![Main Dashboard](../assets/main-dashboard.png)
 
 Create a project, on the left hand side, you can title it whatever you like, we suggest "example-health."
