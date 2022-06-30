@@ -4,7 +4,7 @@ In this exercise, we'll explore the third-party monitoring and metrics dashboard
 
 ## Grafana
 
-Red Hat OpenShift on IBM Cloud comes with [Grafana](https://grafana.com/) preinstalled. Get started by switching to the Administrator view:
+Red Hat OpenShift comes with [Grafana](https://grafana.com/) preinstalled. Get started by switching to the Administrator view:
 
 ![Administrator](../assets/switch-to-admin.png)
 
